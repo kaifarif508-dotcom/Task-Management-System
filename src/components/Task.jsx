@@ -171,4 +171,4 @@ return{...item , complete: !item.complete}
   )
 }
 
-export default TaskSignal
+export default Task
