@@ -3,7 +3,7 @@ import { useTheme } from '../context/Context'
 import toast from "react-hot-toast";
 import { Toaster } from "react-hot-toast";
 
-const Todo = () => {
+const Task = () => {
   const [title, setTitle] = useState("")
   const [task, setTask] = useState("")
   const [edit, setEdit] = useState(null)
@@ -171,4 +171,4 @@ return{...item , complete: !item.complete}
   )
 }
 
-export default Todo
+export default TaskSignal
