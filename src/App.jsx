@@ -1,5 +1,5 @@
 import React from 'react'
-import Toda from './components/Todo'
+import Task from './components/Task'
 import { useTheme } from './context/Context'
 import { Toaster } from "react-hot-toast";
 
@@ -30,7 +30,7 @@ const App = () => {
 
       {/* TODO COMPONENT */}
       <div className="w-full max-w-4xl">
-        <Toda />
+        <Task />
       </div>
 
     </div>
